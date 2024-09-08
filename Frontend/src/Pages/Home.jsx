@@ -44,7 +44,7 @@ function Home() {
     </div>
     
     {/* 1st section */}
-      <h1 className='text-2xl lg:ml-36 mt-20  ml-36 '><b>Shop Popular Categories</b></h1>
+      {/* <h1 className='text-2xl lg:ml-36 mt-20  ml-36 '><b>Shop Popular Categories</b></h1>
 
     <div className=' grid grid-cols-3  lg:grid-cols-6 lg:mx-28 gap-5 p-5'>
       <Link>
@@ -75,12 +75,58 @@ function Home() {
       <img src={finalSale} alt="" />
       <p className='underline text-center mt-5'>Shop the Sale </p>
       </Link>
-    </div>
+    </div> */}
+
+
+<h1 className='text-2xl lg:ml-36 mt-20  ml-5 font-bold'>
+        Shop Popular Categories
+      </h1>
+
+      {/* Categories Grid */}
+      <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5 p-5 lg:px-28 lg:py-5'>
+
+        {/* Sale Sneakers */}
+        <Link className='flex flex-col items-center'>
+          <img src={shose} alt="Sale Sneakers" className='w-full' />
+          <p className='underline text-center mt-5'>Sale Sneakers</p>
+        </Link>
+
+        {/* Sale Sandals */}
+        <Link className='flex flex-col items-center'>
+          <img src={seliper} alt="Sale Sandals" className='w-full' />
+          <p className='underline text-center mt-5'>Sale Sandals</p>
+        </Link>
+
+        {/* Sale Heels */}
+        <Link className='flex flex-col items-center'>
+          <img src={belly} alt="Sale Heels" className='w-full' />
+          <p className='underline text-center mt-5'>Sale Heels</p>
+        </Link>
+
+        {/* Sale Boots */}
+        <Link className='flex flex-col items-center'>
+          <img src={jute} alt="Sale Boots" className='w-full' />
+          <p className='underline text-center mt-5'>Sale Boots</p>
+        </Link>
+
+        {/* $50 & Under Sale */}
+        <Link className='flex flex-col items-center'>
+          <img src={man} alt="$50 & Under Sale" className='w-full' />
+          <p className='underline text-center mt-5'>$50 & Under <br /> Sale</p>
+        </Link>
+
+        {/* Shop the Sale */}
+        <Link className='flex flex-col items-center'>
+          <img src={finalSale} alt="Shop the Sale" className='w-full' />
+          <p className='underline text-center mt-5'>Shop the Sale</p>
+        </Link>
+
+      </div>
 
 
     {/* 2nd section */}
 
-    <h1 className='text-2xl lg:ml-36 mt-8 ml-36 '><b>More Sale to Love</b></h1>
+    <h1 className='text-2xl lg:ml-36 mt-8 ml-5 '><b>More Sale to Love</b></h1>
     <div className='grid grid-cols-1  md:grid-cols-3 lg:mx-28 gap-5 p-5' >
 
     <Link>
@@ -145,7 +191,7 @@ function Home() {
 
 {/* 4th section */}
 
-<div className="justify-center items-start grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-24 p-12 mt-10">
+<div className="justify-center items-start grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-24 p-12 mt-8">
   <div>
     <Link to="/new-arrivals" className="text-blue-500 text-lg">
       <img src={New} alt="" />
@@ -192,7 +238,7 @@ function Home() {
 
     
     {/* 5th section */}
-    <h1 className='font-bold text-2xl  lg:ml-34  ml-36  mt-16 '>Want inspiration? Visit The Style Room for styling tips and fashion trends.</h1>
+    <h1 className='text-2xl lg:ml-36 mt-8 ml-5 font-bold'>Want inspiration? Visit The Style Room for styling tips and fashion trends.</h1>
 
     <div className='grid grid-cols-1  md:grid-cols-3 lg:mx-32 gap-4 p-4'>
 
@@ -220,7 +266,7 @@ function Home() {
 
 
     {/* section 6 */}
-    <h1 className='font-bold text-2xl lg:ml-34 ml-36 mt-16'>Zappos 25th Birthday Exclusives</h1>
+    <h1 className='font-bold text-2xl lg:ml-36 ml-5 mt-16'>Zappos 25th Birthday Exclusives</h1>
 <div className='justify-center items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:mx-24 p-5'>
   
   <div>
@@ -275,7 +321,7 @@ function Home() {
 
 
 {/*  */}
-    <div className='grid grid-cols-1  md:grid-cols-4 lg:mx-32 gap-10 mt-20 '>
+    <div className='grid grid-cols-1  md:grid-cols-4 lg:mx-32 gap-10 mt-8 '>
       
       <div>
       <Link>
